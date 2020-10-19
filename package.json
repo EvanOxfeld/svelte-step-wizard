@@ -1,0 +1,25 @@
+{
+  "name": "svelte-step-wizard",
+  "version": "0.0.2",
+  "description": "simple svelte step wizard component",
+  "repository": "https://github.com/EvanOxfeld/svelte-step-wizard",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "svelte",
+    "wizard"
+  ],
+  "author": "Evan Oxfeld <eoxfeld@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-svelte": "^6.0.0",
+    "svelte": "^3.0.0"
+  }
+}

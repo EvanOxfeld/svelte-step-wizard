@@ -21,4 +21,4 @@
 	})
 </script>
 
-<slot nextStep={nextStep} previousStep={previousStep}></slot>
+<slot nextStep={nextStep} previousStep={previousStep} currentStep={$step}></slot>

@@ -5,10 +5,10 @@
 	
 	let step = writable(initialStep)
 	
-	const nextStep = () => {
+	export const nextStep = () => {
 			$step += 1
 	}
-	const previousStep = () => {
+	export const previousStep = () => {
 			if ($step > 0) {
 				$step -= 1	
 			}
